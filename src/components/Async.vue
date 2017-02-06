@@ -16,10 +16,6 @@
 <script>
 export default {
   name: 'async',
-  data () {
-    return {
-    }
-  },
   created () {
     this.$store.dispatch('fetchData');
   },

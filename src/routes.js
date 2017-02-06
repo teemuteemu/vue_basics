@@ -1,4 +1,5 @@
 import Index from './components/Index';
+import Sync from './components/Sync';
 import Async from './components/Async';
 
 export default [
@@ -8,8 +9,13 @@ export default [
     component: Index
   },
   {
-    path: '/foo',
-    label: 'Async',
+    path: '/sync',
+    label: 'Store - Sync',
+    component: Sync
+  },
+  {
+    path: '/async',
+    label: 'Store - Async',
     component: Async
   }
 ];

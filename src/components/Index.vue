@@ -1,21 +1,33 @@
 <template>
   <div class="index">
     <h1>{{ msg }}</h1>
-    <counter controls></counter>
+
+    <ul>
+      <li v-for="feature in features">
+        {{ feature }}
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
-import Counter from './Counter';
+// import Counter from './Counter';
 
 export default {
   name: 'index',
   components: {
-    Counter
   },
   data () {
     return {
-      msg: 'Index...'
+      msg: 'Well well, what do we have here..',
+      features: [
+        'Vue-router',
+        'Vuex',
+        'Synchronous actions',
+        'Asynchronous actions',
+        'Vue magic',
+        'Stuff'
+      ]
     }
   }
 }
