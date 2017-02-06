@@ -9,7 +9,7 @@ export default {
   name: 'foo',
   data () {
     return {
-      msg: 'fooin\' lol :D'
+      msg: 'ebin foo :D'
     }
   }
 }

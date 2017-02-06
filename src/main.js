@@ -17,8 +17,7 @@ const router = new VueRouter({routes});
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  template: '<App/>',
-  components: { App },
+  render: h => h(App),
   router,
   store
 });
