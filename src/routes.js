@@ -1,5 +1,5 @@
 import Index from './components/Index';
-import Foo from './components/Foo';
+import Async from './components/Async';
 
 export default [
   {
@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/foo',
-    label: 'Foo',
-    component: Foo
+    label: 'Async',
+    component: Async
   }
 ];
