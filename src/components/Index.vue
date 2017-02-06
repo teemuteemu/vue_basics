@@ -25,8 +25,8 @@ export default {
         'Vuex',
         'Synchronous actions',
         'Asynchronous actions',
-        'Vue magic',
-        'Stuff'
+        'Vue magic™',
+        'Random stuff'
       ]
     }
   }

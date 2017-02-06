@@ -10,7 +10,8 @@
 </template>
 
 <script>
-import routes from '../routes';
+import routesDef from '../routes';
+const { routes } = routesDef;
 
 export default {
   name: 'menu-bar',
